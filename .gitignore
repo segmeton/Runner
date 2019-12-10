@@ -1,0 +1,12 @@
+﻿#ignore folder
+bin/
+obj/
+.vs/
+Temp/
+Logs/
+
+
+#ignore filetype
+*.csproj
+*.meta
+*.sln
