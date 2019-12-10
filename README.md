@@ -5,7 +5,9 @@ Runner modification for incorporating musical audio cues.
 ## Getting Started
 
 Original version : (https://github.com/SimcaCrow/Runner)
+
 Documentation : (https://github.com/SimcaCrow/Runner/blob/master/Doc/Runner_user_manual.pdf)
+
 Journal for the original : (https://www.sciencedirect.com/science/article/pii/S235271101930024X)
 
 <!--
