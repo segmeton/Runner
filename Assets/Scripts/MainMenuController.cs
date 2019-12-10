@@ -130,6 +130,15 @@ public class MainMenuController : MonoBehaviour
         SceneManager.LoadScene("Level");
     }
 
+    public void DemoGame()
+    {
+        selectSound.Play();
+        playerSettingsManager.SetPlayerName(dropdown.options[dropdown.value].text);
+        SceneManager.LoadScene("demo");
+    }
+
+
+
     /** 
      *	Launch the tutorial
      */

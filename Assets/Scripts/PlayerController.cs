@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour
     //Speed
     public float startSpeed;
     private float playerSpeed;
+    private bool isStaticSpeed = false;
     private float maxSpeed;
     public float PlayerSpeed
     {
@@ -94,7 +95,7 @@ public class PlayerController : MonoBehaviour
         CheckCollision();
         SetAnimatorBool();
         CheckJump();
-        IncreaseSpeed();
+        if(!isStaticSpeed) IncreaseSpeed();
     }
 
     /**
@@ -200,7 +201,9 @@ public class PlayerController : MonoBehaviour
     {
         if (playerSpeed < maxSpeed)
         {
-            playerSpeed = startSpeed + Mathf.Log10(Time.time - startTime + 1) / 10;
+            //playerSpeed = startSpeed + Mathf.Log10(Time.time - startTime + 1) / 10;
+            playerSpeed = startSpeed + Mathf.Log10(Time.time - startTime + 1) / 2;
+            Debug.Log(playerSpeed);
         }
     }
 
