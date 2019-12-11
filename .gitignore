@@ -4,6 +4,8 @@ obj/
 .vs/
 Temp/
 Logs/
+Library/
+ProjectSettings/
 
 
 #ignore filetype
