@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4217034230202441543}
   - component: {fileID: 8503297568683639959}
   - component: {fileID: 9140817020329959507}
+  - component: {fileID: 4929810467566202099}
   m_Layer: 0
   m_Name: MidiManager
   m_TagString: Untagged
@@ -44,6 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8276fdcde6332fe4189a636c1dd82423, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   audioSource: {fileID: 9140817020329959507}
 --- !u!82 &9140817020329959507
 AudioSource:
@@ -141,3 +143,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!58 &4929810467566202099
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3431502298255489528}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
