@@ -285,7 +285,7 @@ MonoBehaviour:
   drownSound: {fileID: 214167508}
   killedSound: {fileID: 1653288738}
   runSound: {fileID: 136061674}
-  startSpeed: 3.5
+  startSpeed: 3
 --- !u!4 &51852650
 Transform:
   m_ObjectHideFlags: 0
